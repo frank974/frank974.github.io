@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>动漫推荐清单 | 次元漫游</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            padding: 30px;
+        }
+
+        .back {
+            margin-bottom: 20px;
+        }
+
+            .back a {
+                text-decoration: none;
+                color: #38b2ac;
+                font-size: 16px;
+                padding: 8px 15px;
+                border: 1px solid #38b2ac;
+                border-radius: 5px;
+                transition: all 0.3s;
+            }
+
+                .back a:hover {
+                    background-color: #38b2ac;
+                    color: #fff;
+                }
+
+        .content {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+            .content h2 {
+                color: #38b2ac;
+                margin-bottom: 20px;
+                font-size: 28px;
+            }
+
+        .list {
+            columns: 2;
+            gap: 20px;
+        }
+
+            .list li {
+                color: #4a5568;
+                line-height: 1.8;
+                font-size: 16px;
+                margin-bottom: 10px;
+                list-style: none;
+                padding-left: 20px;
+                background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2338b2ac'><circle cx='6' cy='6' r='5'/></svg>") no-repeat left center;
+            }
+
+        .list-img {
+            width: 70%;
+            margin-top: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="index.html">← 返回主页</a>
+    </div>
+
+    <div class="content">
+        <h2>📋 热门日本动漫推荐清单</h2>
+        <div class="list">
+            <li>少年热血：《海贼王》《火影忍者》《我的英雄学院》《进击的巨人》</li>
+            <li>治愈日常：《夏目友人帐》《龙猫》《堀与宫村》《玉子市场》</li>
+            <li>悬疑推理：《名侦探柯南》《咒术回战》《约定的梦幻岛》《死亡笔记》</li>
+            <li>科幻冒险：《你的名字。》《天气之子》《进击的巨人》《EVA》</li>
+            <li>经典怀旧：《哆啦A梦》《樱桃小丸子》《蜡笔小新》《铁臂阿童木》</li>
+            <li>恋爱番：《辉夜大小姐想让我告白》《月刊少女野崎君》《堀与宫村》</li>
+            <li>异世界：《原神》《刀剑神域》《Re：从零开始的异世界生活》</li>
+            <li>运动番：《排球少年！！》《黑子的篮球》《网球王子》</li>
+        </div>
+        <img src="images/list.jpg" alt="动漫推荐清单配图" class="list-img">
+    </div>
+</body>
+</html>
